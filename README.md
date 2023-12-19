@@ -19,10 +19,10 @@ PHP and MySQL for the backend.
 #Demo Link: https://hostingweb2003.000webhostapp.com/index.php
 
 #Working
-User can enroll at any time in a month.
-Payment is required for the entire month.
-The chosen batch for a user will expire at the end of the month.
-User registers by paying a fixed fee of Rs.500.
-Enrolled users receive further class details on WhatsApp.
-If a user attempts to re-enroll (checked by phone number), they receive a message stating "You are already enrolled in a class" and are prevented from re-enrolling.
-After the current batch ends, users can fill the form again to change their class timing.
+>User can enroll at any time in a month.
+>Payment is required for the entire month.
+>The chosen batch for a user will expire at the end of the month.
+>User registers by paying a fixed fee of Rs.500.
+>Enrolled users receive further class details on WhatsApp.
+>If a user attempts to re-enroll (checked by phone number), they receive a message stating "You are already enrolled in a class" and are prevented from re-enrolling.
+>After the current batch ends, users can fill the form again to change their class timing.
