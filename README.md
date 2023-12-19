@@ -11,7 +11,7 @@ This project is an admission form for Yoga Classes, enabling users to enroll in 
 - Participants can choose any batch in a month and switch to another batch the following month.
 
 ## Implementation
-###Frontend and Backend Technologies Used:
+### Frontend and Backend Technologies Used:
 - HTML, CSS, JS for the frontend.
 - PHP and MySQL for the backend.
 
