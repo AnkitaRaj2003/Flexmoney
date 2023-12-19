@@ -1,24 +1,24 @@
-#Yoga Class Admission Form
+# Yoga Class Admission Form
 
-#Overview
+## Overview
 This project is an admission form for Yoga Classes, enabling users to enroll in monthly classes with specific requirements and functionalities.
 
-#Requirements
+## Requirements
 Participants must be within the age limit of 18-65.
 Monthly fees of 500/- Rs INR.
 Enrollment and payment on a month-to-month basis.
 Four batches available daily: 6-7AM, 7-8AM, 8-9AM, and 5-6PM.
 Participants can choose any batch in a month and switch to another batch the following month.
 
-#Implementation
+## Implementation
 Frontend and Backend Technologies Used:
 HTML, CSS, JS for the frontend.
 PHP and MySQL for the backend.
 
-#Database Design (ER Diagram): ER.png
-#Demo Link: https://hostingweb2003.000webhostapp.com/index.php
+## Database Design (ER Diagram): ER.png
+## Demo Link: https://hostingweb2003.000webhostapp.com/index.php
 
-#Working
+## Working
 >User can enroll at any time in a month.
 >Payment is required for the entire month.
 >The chosen batch for a user will expire at the end of the month.
