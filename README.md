@@ -4,8 +4,8 @@
 This project is an admission form for Yoga Classes, enabling users to enroll in monthly classes with specific requirements and functionalities.
 
 ## Requirements
-Participants must be within the age limit of 18-65.
-Monthly fees of 500/- Rs INR.
+- Participants must be within the age limit of 18-65.
+- Monthly fees of 500/- Rs INR.
 Enrollment and payment on a month-to-month basis.
 Four batches available daily: 6-7AM, 7-8AM, 8-9AM, and 5-6PM.
 Participants can choose any batch in a month and switch to another batch the following month.
