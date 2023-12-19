@@ -56,7 +56,7 @@ CREATE TABLE `enrollment` (
   `age` int(5) NOT NULL,
   `phone` bigint(20) NOT NULL,
   `b_id` int(11) NOT NULL,
-  `p_id` int(11) NOT NULL,
+  `p_id` varchar(255) NOT NULL,
   `enroll_at` datetime NOT NULL DEFAULT current_timestamp(),
   `expiry` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -68,7 +68,7 @@ CREATE TABLE `enrollment` (
 --
 
 CREATE TABLE `payment` (
-  `id` int(5) NOT NULL,
+  `id` varchar(255) NOT NULL,
   `method` varchar(50) NOT NULL,
   `payment_at` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -111,11 +111,6 @@ ALTER TABLE `batch`
 ALTER TABLE `enrollment`
   MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
---
--- AUTO_INCREMENT for table `payment`
---
-ALTER TABLE `payment`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
